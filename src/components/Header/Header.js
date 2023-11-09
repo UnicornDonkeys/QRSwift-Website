@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 
 import GlobalContext from "../../context/GlobalContext";
 import Offcanvas from "../Offcanvas";
-import { Button } from "../Core";
+// import { Button } from "../Core";
 import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
 import Logo from "../Logo";
@@ -423,7 +423,7 @@ const Header = ({ isDark = false }) => {
                 className="btn-red hvr-bounce-to-left"
                 to="/"
               >
-                Get Started
+                Get the App
               </Link>
             </div>
             <ToggleButton

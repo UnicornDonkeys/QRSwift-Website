@@ -196,17 +196,17 @@ const Footer = ({ isDark = true }) => {
               <Col sm="6" className="text-sm-right text-center">
                 <ul className="social-icons">
                   <li>
-                    <a href="/#" target="_blank">
+                    <a aria-label="Twitter" href="/#" target="_blank">
                       <i className="icon icon-logo-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/#" target="_blank">
+                    <a aria-label="LinkedIn" href="/#" target="_blank">
                       <i className="icon icon-logo-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/#" target="_blank">
+                    <a aria-label="Facebook" href="/#" target="_blank">
                       <i className="icon icon-logo-facebook"></i>
                     </a>
                   </li>
