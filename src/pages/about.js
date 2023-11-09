@@ -1,5 +1,4 @@
 import React from "react";
-
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/common/Hero";
 import Content from "../sections/about/Content";
@@ -17,7 +16,7 @@ const About = () => {
         <Content />
         <Team />
         <CTA />
-      </PageWrapper>
+      </ PageWrapper>
     </>
   );
 };

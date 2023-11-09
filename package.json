@@ -1,8 +1,19 @@
 {
   "name": "qrswift",
-  "description": "Secure and Super Fast QR code creation.",
   "version": "1.0.0",
-  "author": "gianluca-orpello",
+  "private": true,
+  "description": "qrswift",
+  "author": "Gianluca Orpello",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "aos": "^3.0.0-beta.6",
@@ -11,9 +22,12 @@
     "dotenv": "^16.3.1",
     "gatsby": "^5.12.9",
     "gatsby-image": "^3.11.0",
+    "gatsby-plugin-google-gtag": "^5.12.3",
+    "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-react-helmet": "^6.12.0",
     "gatsby-plugin-sass": "^6.12.3",
     "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-plugin-sitemap": "^6.12.3",
     "gatsby-plugin-styled-components": "^6.12.0",
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-remark": "^6.12.3",
@@ -35,18 +49,6 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.1",
     "styled-system": "^5.1.5"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "main": "n/a",
-  "scripts": {
-    "start": "yarn develop",
-    "build": "gatsby clean && gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },
   "devDependencies": {
     "prettier": "^3.0.3"

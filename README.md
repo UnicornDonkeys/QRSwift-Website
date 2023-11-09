@@ -1,1 +1,0 @@
-# QRSwift App Website
