@@ -3,10 +3,9 @@ import styled from "styled-components";
 import { Container } from "react-bootstrap";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Link } from "gatsby";
-
+import { Button } from "../../components/Core";
 import GlobalContext from "../../context/GlobalContext";
 import Offcanvas from "../Offcanvas";
-// import { Button } from "../Core";
 import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
 import Logo from "../Logo";
@@ -419,12 +418,8 @@ const Header = ({ isDark = false }) => {
               </div>
             </div>
             <div className="header-btns ml-auto ml-lg-0 d-none d-md-block">
-              <Link
-                className="btn-red hvr-bounce-to-left"
-                to="/"
-              >
-                Get the App
-              </Link>
+              <Button mb={3}>Get the App</Button>
+              
             </div>
             <ToggleButton
               className={`navbar-toggler btn-close-off-canvas ml-3 ${
