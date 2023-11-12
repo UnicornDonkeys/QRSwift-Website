@@ -6,6 +6,14 @@ import { Title, Button, Section, Box, Text } from "../../components/Core";
 import { device } from "../../utils";
 import imgContentMobile from "../../assets/image/png/content-img1--mobile.webp";
 
+const pageTexts = [
+  "Ready to Experience QRSwift?",
+  "Navigating through QRSwift is a breeze. Our user-friendly interface ensures that even newcomers can effortlessly generate QR codes, making it a valuable tool for professionals and casual users alike.",
+  "Get Started",
+  "Update material in a flash",
+  "Remember to update the link in tomorrow's presentation!",
+]
+
 const ShapeCard = styled(Box)`
   width: 305px;
   box-shadow: 0 32px 34px rgba(28, 27, 32, 0.2);
@@ -24,7 +32,6 @@ const ShapeCard = styled(Box)`
 
 const Content1 = () => (
   <>
-    {/* <!-- Content section 1 --> */}
     <Section>
       <Container>
         <Row className="align-items-center">
@@ -66,10 +73,10 @@ const Content1 = () => (
 
                 <Box pr="40px">
                   <Text fontSize={1} lineHeight="24px" opacity={0.7} mb={0}>
-                    Next meeting on 30 mins
+                    {pageTexts[3]}
                   </Text>
                   <Title variant="card" fontWeight={300} mb={0}>
-                    Project Discussion with John
+                    {pageTexts[4]}
                   </Title>
                 </Box>
               </ShapeCard>
@@ -82,14 +89,12 @@ const Content1 = () => (
               data-aos-once="true"
             >
               <Box>
-                <Title>Save time on development.</Title>
+                <Title>{pageTexts[0]}</Title>
                 <Text mb={4}>
-                  Create custom landing pages with Omega that converts more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without coding.
+                  {pageTexts[1]}
                 </Text>
 
-                <Button mt={3}>Get Started</Button>
+                <Button mt={3}>{pageTexts[2]}</Button>
               </Box>
             </div>
           </Col>

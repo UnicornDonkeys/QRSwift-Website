@@ -9,8 +9,8 @@ import svgHeroShape from "../../assets/image/svg/hero-shape-svg.svg";
 import imgL1HeroIcon from "../../assets/favicon.png";
 
 const heroTexts = [
-  "Redesigned, how you build landing page!",
-  "Create custom landing pages with Omega that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.",
+  "Your Swift Solution for QR Codes!",
+  "Generate QR Codes in the Blink of an Eye. QRSwift is your go-to app for lightning-fast QR code creation. Whether you're a business owner, marketer, or just someone who loves efficiency, QRSwift has you covered.",
   "Get the App"
 ];
 

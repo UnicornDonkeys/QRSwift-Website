@@ -21,7 +21,7 @@ const UlStyled = styled.ul`
       color: ${({ theme, color }) => theme.colors[color]} !important;
       &:hover {
         text-decoration: none;
-        color: ${({ theme, color }) => theme.colors.secondary} !important;
+        color: ${({ theme, color }) => theme.colors.primary} !important;
       }
     }
   }
@@ -81,83 +81,8 @@ const Footer = ({ isDark = true }) => {
               </Col>
               <Col lg="10" md="8" className="mt-5 mt-lg-0">
                 <Row>
-                  <Col xs="6" lg="3">
-                    <div className="mb-5 mb-lg-4">
-                      <TitleStyled
-                        variant="card"
-                        color={isDark ? "light" : "dark"}
-                      >
-                        About
-                      </TitleStyled>
-                      <UlStyled color={isDark ? "lightShade" : "darkShade"}>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Our mission
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Our story
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Team Members
-                          </a>
-                        </li>
-                      </UlStyled>
-                    </div>
-                  </Col>
-                  <Col xs="6" lg="3">
-                    <div className="mb-5 mb-lg-4">
-                      <TitleStyled
-                        variant="card"
-                        color={isDark ? "light" : "dark"}
-                      >
-                        Learn
-                      </TitleStyled>
-                      <UlStyled color={isDark ? "lightShade" : "darkShade"}>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Tutorials
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            How it works
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            F.A.Q
-                          </a>
-                        </li>
-                      </UlStyled>
-                    </div>
-                  </Col>
-                  <Col xs="6" lg="3">
-                    <div className="mb-5 mb-lg-4">
-                      <TitleStyled
-                        variant="card"
-                        color={isDark ? "light" : "dark"}
-                      >
-                        Stories
-                      </TitleStyled>
-                      <UlStyled color={isDark ? "lightShade" : "darkShade"}>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Blog
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Tech stories
-                          </a>
-                        </li>
-                      </UlStyled>
-                    </div>
-                  </Col>
-                  <Col xs="6" lg="3">
+                  
+                  <Col xs={{ span: 6, offset: 6 }} lg={{ span: 3, offset: 9 }}>
                     <div className="mb-lg-4">
                       <TitleStyled
                         variant="card"
@@ -168,17 +93,17 @@ const Footer = ({ isDark = true }) => {
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
                           <a href="/#" target="_blank">
-                            Career
+                            Privacy policy
                           </a>
                         </li>
                         <li>
                           <a href="/#" target="_blank">
-                            Freelancers
+                            Terms & Conditions
                           </a>
                         </li>
                         <li>
-                          <a href="/#" target="_blank">
-                            Trainee
+                          <a href="https://www.mrhide.app" target="_blank" rel="noreferrer">
+                            Discover Mr.Hide
                           </a>
                         </li>
                       </UlStyled>
@@ -191,26 +116,7 @@ const Footer = ({ isDark = true }) => {
           <CopyRightArea dark={isDark ? 1 : 0}>
             <Row className="align-items-center">
               <Col sm="6" className="text-sm-left text-center mb-2 mb-sm-0">
-                <p>&copy; 2019 UXTheme, All Rights Reserved</p>
-              </Col>
-              <Col sm="6" className="text-sm-right text-center">
-                <ul className="social-icons">
-                  <li>
-                    <a aria-label="Twitter" href="/#" target="_blank">
-                      <i className="icon icon-logo-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a aria-label="LinkedIn" href="/#" target="_blank">
-                      <i className="icon icon-logo-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a aria-label="Facebook" href="/#" target="_blank">
-                      <i className="icon icon-logo-facebook"></i>
-                    </a>
-                  </li>
-                </ul>
+                <p>&copy; 2023 <a className="text-white" href="https://www.gianlucaorpello.com">Orpello Gianluca</a>, All Rights Reserved</p>
               </Col>
             </Row>
           </CopyRightArea>

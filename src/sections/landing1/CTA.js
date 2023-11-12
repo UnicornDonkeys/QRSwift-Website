@@ -8,11 +8,16 @@ import {
   Section,
   Box,
   Text,
-  Input,
 } from "../../components/Core";
 
 import imgOval from "../../assets/image/png/l1-cta-oval.png";
 import svgCurve from "../../assets/image/svg/l1-curve-cta.svg";
+
+const pageTexts = [
+  "Ready to Elevate Your QR Code Experience?",
+  "Download QRSwift now and embark on a journey of innovation and efficiency. Transform the way you connect with your audience through personalized and swift QR code experiences.",
+  "Get Started"
+]
 
 const LeftCard = styled(Box)`
   position: absolute;
@@ -44,23 +49,14 @@ const CTA = () => (
         <Row className="justify-content-center">
           <Col lg="7" xl="6">
             <Box mb={5} className="text-center">
-              <Title color="light">Get started</Title>
+              <Title color="light">{pageTexts[0]}</Title>
               <Text color="light" opacity={0.7}>
-                Create custom landing pages with Omega that converts more
-                visitors than any website. With lots of unique blocks, you can
-                easily build a page without coding.
+                {pageTexts[1]}
               </Text>
             </Box>
             <form>
-              <Box mb={3}>
-                <Input type="text" placeholder="Your name" />
-              </Box>
-              <Box mb={3}>
-                <Input type="email" placeholder="Your email" />
-              </Box>
-
               <Button width="100%" type="submit" borderRadius={10}>
-                Get Started
+                {pageTexts[2]}
               </Button>
             </form>
           </Col>
