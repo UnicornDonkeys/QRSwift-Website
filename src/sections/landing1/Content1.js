@@ -9,7 +9,7 @@ import imgContentMobile from "../../assets/image/png/content-img1--mobile.webp";
 const pageTexts = [
   "Ready to Experience QRSwift?",
   "Navigating through QRSwift is a breeze. Our user-friendly interface ensures that even newcomers can effortlessly generate QR codes, making it a valuable tool for professionals and casual users alike.",
-  "Get Started",
+  "Coming soon...",
   "Update material in a flash",
   "Remember to update the link in tomorrow's presentation!",
 ]

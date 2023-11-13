@@ -16,7 +16,7 @@ import svgCurve from "../../assets/image/svg/l1-curve-cta.svg";
 const pageTexts = [
   "Ready to Elevate Your QR Code Experience?",
   "Download QRSwift now and embark on a journey of innovation and efficiency. Transform the way you connect with your audience through personalized and swift QR code experiences.",
-  "Get Started"
+  "Coming soon..."
 ]
 
 const LeftCard = styled(Box)`
@@ -31,7 +31,7 @@ const RightCard = styled(Box)`
   right: -275px;
 `;
 
-const CTA = () => (
+const Cta = () => (
   <>
     {/* <!-- CTA section --> */}
     <Section bg="dark" className="position-relative">
@@ -66,4 +66,4 @@ const CTA = () => (
   </>
 );
 
-export default CTA;
+export default Cta;

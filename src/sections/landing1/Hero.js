@@ -6,12 +6,12 @@ import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 import { device } from "../../utils";
 import svgHeroShape from "../../assets/image/svg/hero-shape-svg.svg";
-import imgL1HeroIcon from "../../assets/favicon.png";
+import imgL1HeroIcon from "../../assets/image/png/favicon.png";
 
 const heroTexts = [
   "Your Swift Solution for QR Codes!",
   "Generate QR Codes in the Blink of an Eye. QRSwift is your go-to app for lightning-fast QR code creation. Whether you're a business owner, marketer, or just someone who loves efficiency, QRSwift has you covered.",
-  "Get the App"
+  "Coming soon..."
 ];
 
 const ShapeTopLeft = styled.div`

@@ -11,7 +11,7 @@ import imgL1FeatureCurve from "../../assets/image/svg/l1-curve-feature.svg";
 const pageTexts = [
   "Why QRSwift?",
   "QRSwift's user-friendly design ensures that generating QR codes is a seamless experience. No learning curve – just straightforward functionality.",
-  "Check all features"
+  "Coming soon..."
 ]
 
 const features = [

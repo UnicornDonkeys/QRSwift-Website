@@ -5,8 +5,9 @@ import Feature from "../sections/landing1/Feature";
 import Content1 from "../sections/landing1/Content1";
 //import Content2 from "../sections/landing1/Content2";
 //import Testimonial from "../sections/landing1/Testimonial";
-import CTA from "../sections/landing1/CTA";
+import Cta from "../sections/landing1/Cta";
 import PageWrapper from "../components/PageWrapper";
+
 
 const IndexPage = () => {
   return (
@@ -15,7 +16,7 @@ const IndexPage = () => {
         <Hero />
         <Feature />
         <Content1 />
-        <CTA />
+        <Cta />
       </PageWrapper>
     </>
   );
