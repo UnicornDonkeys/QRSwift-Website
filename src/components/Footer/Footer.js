@@ -92,12 +92,12 @@ const Footer = ({ isDark = true }) => {
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
-                          <a href="/#" target="_blank">
+                          <a href="/privacy-policy">
                             Privacy policy
                           </a>
                         </li>
                         <li>
-                          <a href="/#" target="_blank">
+                          <a href="/terms-conditions">
                             Terms & Conditions
                           </a>
                         </li>
