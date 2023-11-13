@@ -2,6 +2,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/QRSwift-Website",
   siteMetadata: {
     title: `QRSwift`,
     siteUrl: `https://qrswift.unicorndonkeys.com`
