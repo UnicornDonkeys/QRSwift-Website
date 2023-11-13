@@ -96,14 +96,14 @@ const SiteHeader = styled.header`
     letter-spacing: -0.66px;
   }
 `;
-
+/*
 const ToggleButton = styled.button`
   color: ${({ dark, theme }) =>
     dark ? theme.colors.lightShade : theme.colors.darkShade}!important;
   border-color: ${({ dark, theme }) =>
     dark ? theme.colors.lightShade : theme.colors.darkShade}!important;
 `;
-
+*/
 const Menu = styled.ul`
   @media ${device.lg} {
     display: flex;
@@ -416,7 +416,7 @@ const Header = ({ isDark = false }) => {
                 </Menu>
               </div>
             </div>
-            <ToggleButton
+            {/*<ToggleButton
               className={`navbar-toggler btn-close-off-canvas ml-3 ${
                 gContext.visibleOffCanvas ? "collapsed" : ""
               }`}
@@ -429,9 +429,8 @@ const Header = ({ isDark = false }) => {
               onClick={gContext.toggleOffCanvas}
               dark={isDark ? 1 : 0}
             >
-              {/* <i className="icon icon-simple-remove icon-close"></i> */}
               <i className="icon icon-menu-34 icon-burger d-block"></i>
-            </ToggleButton>
+            </ToggleButton>*/}
           </nav>
         </Container>
       </SiteHeader>
