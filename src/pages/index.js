@@ -5,7 +5,7 @@ import Feature from "../sections/landing/Feature";
 import Content1 from "../sections/landing/Content1";
 //import Content2 from "../sections/landing1/Content2";
 //import Testimonial from "../sections/landing1/Testimonial";
-import Cta from "../sections/landing/CTA";
+import Cta from "../sections/landing/Cta";
 import PageWrapper from "../components/PageWrapper";
 
 const IndexPage = () => {
