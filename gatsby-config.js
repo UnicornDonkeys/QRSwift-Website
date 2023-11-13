@@ -7,7 +7,7 @@ module.exports = {
     title: `QRSwift`,
     siteUrl: `https://qrswift.unicorndonkeys.com`
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-sass", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/assets/image/png/favicon.png"
