@@ -31,9 +31,8 @@ const RightCard = styled(Box)`
   right: -275px;
 `;
 
-const CTA = () => (
+const Cta = () => (
   <>
-    {/* <!-- CTA section --> */}
     <Section bg="dark" className="position-relative">
       <LeftCard
         data-aos="fade-right"
@@ -66,4 +65,4 @@ const CTA = () => (
   </>
 );
 
-export default CTA;
+export default Cta;
