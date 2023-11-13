@@ -8,7 +8,6 @@ import Content1 from "../sections/landing1/Content1";
 import Cta from "../sections/landing1/Cta";
 import PageWrapper from "../components/PageWrapper";
 
-
 const IndexPage = () => {
   return (
     <>
