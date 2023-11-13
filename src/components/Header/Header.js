@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Link } from "gatsby";
 import GlobalContext from "../../context/GlobalContext";
-import Offcanvas from "../Offcanvas";
-import NestedMenu from "../NestedMenu";
+//import Offcanvas from "../Offcanvas";
+//import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
 import Logo from "../Logo";
 import { menuItems } from "./menuItems";
@@ -434,12 +434,12 @@ const Header = ({ isDark = false }) => {
           </nav>
         </Container>
       </SiteHeader>
-      <Offcanvas
+      {/*<Offcanvas
         show={gContext.visibleOffCanvas}
         onHideOffcanvas={gContext.toggleOffCanvas}
       >
         <NestedMenu menuItems={menuItems} />
-      </Offcanvas>
+          </Offcanvas>*/}
     </>
   );
 };

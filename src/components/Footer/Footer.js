@@ -88,7 +88,7 @@ const Footer = ({ isDark = true }) => {
                         variant="card"
                         color={isDark ? "light" : "dark"}
                       >
-                        Hire
+                        Explore more
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
