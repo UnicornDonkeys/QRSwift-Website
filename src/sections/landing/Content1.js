@@ -9,7 +9,7 @@ import imgContentMobile from "../../assets/image/png/content-img1--mobile.webp";
 const pageTexts = [
   "Ready to Experience QRSwift?",
   "Navigating through QRSwift is a breeze. Our user-friendly interface ensures that even newcomers can effortlessly generate QR codes, making it a valuable tool for professionals and casual users alike.",
-  "Coming soon...",
+  "Download on AppStore",
   "Update material in a flash",
   "Remember to update the link in tomorrow's presentation!",
 ]
@@ -93,8 +93,9 @@ const Content1 = () => (
                 <Text mb={4}>
                   {pageTexts[1]}
                 </Text>
-
-                <Button mt={3}>{pageTexts[2]}</Button>
+                <a href="https://apps.apple.com/us/app/qrswift/id6470154433" value="App Store" target="_blank">
+                  <Button mt={3}>{pageTexts[2]}</Button>
+                </a>
               </Box>
             </div>
           </Col>

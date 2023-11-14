@@ -7,6 +7,7 @@ const Paragraph = styled.a`
   font-weight: 300;
   letter-spacing: -0.66px;
   line-height: 35px;
+  text-decoration: none;
   ${color};
   ${space};
   ${typography};
@@ -20,7 +21,7 @@ const Paragraph = styled.a`
 `;
 
 const A = ({ href = "#", ...props }) => {
-  return <Paragraph href={href} color="secondary" {...props} />;
+  return <Paragraph href={href} color="white" {...props} />;
 };
 
 export default A;

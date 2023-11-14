@@ -1,9 +1,8 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Container } from "react-bootstrap";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Link } from "gatsby";
-import GlobalContext from "../../context/GlobalContext";
 //import Offcanvas from "../Offcanvas";
 //import NestedMenu from "../NestedMenu";
 import { device } from "../../utils";
@@ -250,7 +249,6 @@ const MenuDropdown = styled.ul`
 `;
 
 const Header = ({ isDark = false }) => {
-  const gContext = useContext(GlobalContext);
   const [showScrolling, setShowScrolling] = useState(false);
   const [showReveal, setShowReveal] = useState(false);
 

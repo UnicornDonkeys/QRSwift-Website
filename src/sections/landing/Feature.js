@@ -11,7 +11,7 @@ import imgL1FeatureCurve from "../../assets/image/svg/l1-curve-feature.svg";
 const pageTexts = [
   "Why QRSwift?",
   "QRSwift's user-friendly design ensures that generating QR codes is a seamless experience. No learning curve – just straightforward functionality.",
-  "Coming soon..."
+  "Download on AppStore"
 ]
 
 const features = [
@@ -115,7 +115,9 @@ const Feature = () => (
                 {pageTexts[1]}
               </Text>
 
-              <Button variant="outline">{pageTexts[2]}</Button>
+              <a href="https://apps.apple.com/us/app/qrswift/id6470154433" value="App Store" target="_blank">
+                <Button variant="outline">{pageTexts[2]}</Button>
+              </a>
             </div>
           </Col>
           <Col lg="6" className="order-lg-1 mt-5 mt-lg-0">

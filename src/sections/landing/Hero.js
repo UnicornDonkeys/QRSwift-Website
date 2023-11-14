@@ -11,7 +11,7 @@ import imgL1HeroIcon from "../../assets/image/png/favicon.png";
 const heroTexts = [
   "Your Swift Solution for QR Codes!",
   "Generate QR Codes in the Blink of an Eye. QRSwift is your go-to app for lightning-fast QR code creation. Whether you're a business owner, marketer, or just someone who loves efficiency, QRSwift has you covered.",
-  "Coming soon..."
+  "Download on AppStore"
 ];
 
 const ShapeTopLeft = styled.div`
@@ -72,7 +72,7 @@ const Hero = () => {
                     {heroTexts[1]}
                   </Text>
                   <div className="d-flex flex-column align-items-start">
-                    <Button mb={3}>{heroTexts[2]}</Button>
+                    <a href="https://apps.apple.com/us/app/qrswift/id6470154433" value="App Store" target="_blank"><Button mb={3}>{heroTexts[2]}</Button></a>
                   </div>
                 </Box>
               </div>

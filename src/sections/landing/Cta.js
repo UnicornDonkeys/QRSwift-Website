@@ -16,7 +16,7 @@ import svgCurve from "../../assets/image/svg/l1-curve-cta.svg";
 const pageTexts = [
   "Ready to Elevate Your QR Code Experience?",
   "Download QRSwift now and embark on a journey of innovation and efficiency. Transform the way you connect with your audience through personalized and swift QR code experiences.",
-  "Coming soon..."
+  "Download on AppStore"
 ]
 
 const LeftCard = styled(Box)`
@@ -53,11 +53,11 @@ const Cta = () => (
                 {pageTexts[1]}
               </Text>
             </Box>
-            <form>
-              <Button width="100%" type="submit" borderRadius={10}>
+            <a href="https://apps.apple.com/us/app/qrswift/id6470154433" value="App Store" target="_blank">
+              <Button width="100%" borderRadius={10}>
                 {pageTexts[2]}
               </Button>
-            </form>
+            </a>
           </Col>
         </Row>
       </Container>
