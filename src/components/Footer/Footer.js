@@ -97,11 +97,6 @@ const Footer = ({ isDark = true }) => {
                           </a>
                         </li>
                         <li>
-                          <a href="/terms-conditions">
-                            Terms & Conditions
-                          </a>
-                        </li>
-                        <li>
                           <a href="https://www.mrhide.app" target="_blank" rel="noreferrer">
                             Discover Mr.Hide
                           </a>
